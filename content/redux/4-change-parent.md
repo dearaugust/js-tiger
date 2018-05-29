@@ -34,7 +34,7 @@ class App extends React.Component {
   }
   render() {
     return(
-      <div style={{'color': this.state.color}}>
+      <div style={{'color':this.state.color}}>
         <div>App</div>
         <Child  changeParentState={this.changeBgc} />
       </div>
